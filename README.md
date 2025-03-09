@@ -1,4 +1,9 @@
-# WP Multilingual Translator
+# Generováno pomocí AI Cline.bot a Claude 3.7 Sonnet
+
+Tento kód včetně následujícího readme byl vytvořen pomocí Cline a Anthropic API Claude 3.7 Sonnet a je určen pouze pro testování.  
+
+
+## WP Multilingual Translator
 
 A WordPress plugin for translating all types of posts, pages, custom post types, menus, and content into multiple languages.
 
