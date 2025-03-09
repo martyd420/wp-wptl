@@ -1,6 +1,7 @@
 # Generováno pomocí AI Cline.bot a Claude 3.7 Sonnet
 
-Tento kód včetně následujícího readme byl vytvořen pomocí Cline a Anthropic API Claude 3.7 Sonnet a je určen pouze pro testování.  
+Tento kód včetně následujícího readme byl vytvořen pomocí Cline a Anthropic API Claude 3.7 Sonnet a je určen pouze pro testování.
+Video z generování zde: https://www.youtube.com/watch?v=UogTHieATGk 
 
 
 ## WP Multilingual Translator
