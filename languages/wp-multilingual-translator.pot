@@ -1,0 +1,578 @@
+# Copyright (C) 2025 WordPress Developer
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Multilingual Translator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-multilingual-translator\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-09T18:00:00+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0\n"
+"X-Domain: wp-multilingual-translator\n"
+
+#. Plugin Name of the plugin
+msgid "WP Multilingual Translator"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://example.com/wp-multilingual-translator"
+msgstr ""
+
+#. Description of the plugin
+msgid "Translate all types of posts including custom post types, menus, and content into multiple languages with editable translations from the WordPress admin."
+msgstr ""
+
+#. Author of the plugin
+msgid "WordPress Developer"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://example.com"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:63
+msgid "Are you sure you want to delete this translation?"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:64
+msgid "Saving..."
+msgstr ""
+
+#: admin/class-wpmt-admin.php:65
+msgid "Saved!"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:66
+msgid "Error!"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:78
+#: admin/class-wpmt-admin.php:79
+msgid "WP Multilingual Translator"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:80
+#: admin/class-wpmt-admin.php:81
+msgid "Translations"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:90
+#: admin/class-wpmt-admin.php:91
+msgid "Settings"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:100
+#: admin/class-wpmt-admin.php:101
+#: admin/partials/wpmt-status-display.php:173
+msgid "Languages"
+msgstr ""
+
+#: admin/class-wpmt-admin.php:110
+#: admin/class-wpmt-admin.php:111
+#: admin/partials/wpmt-admin-display.php:29
+msgid "Translation Status"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:47
+msgid "Translations"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:83
+msgid "This post language:"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:97
+msgid "Translations"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:101
+msgid "Please save this post first to add translations."
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:107
+msgid "Language"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:108
+msgid "Translation"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:109
+msgid "Status"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:110
+msgid "Actions"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:129
+msgid "Not translated"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:132
+msgid "Add Translation"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:144
+msgid "Translation Editor"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:150
+msgid "Title"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:155
+msgid "Content"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:165
+msgid "Excerpt"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:170
+msgid "Slug"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:175
+msgid "Status"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:177
+msgid "Draft"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:178
+msgid "Published"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:183
+msgid "Save Translation"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:184
+msgid "Cancel"
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:369
+#: admin/class-wpmt-post-translator.php:398
+#: admin/class-wpmt-post-translator.php:427
+msgid "Security check failed."
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:374
+#: admin/class-wpmt-post-translator.php:403
+#: admin/class-wpmt-post-translator.php:432
+msgid "Missing required parameters."
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:383
+msgid "Translation not found."
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:422
+msgid "Failed to save translation."
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:425
+msgid "Translation saved successfully."
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:451
+msgid "Failed to delete translation."
+msgstr ""
+
+#: admin/class-wpmt-post-translator.php:454
+msgid "Translation deleted successfully."
+msgstr ""
+
+#: admin/class-wpmt-menu-translator.php:87
+msgid "Show translations"
+msgstr ""
+
+#: admin/class-wpmt-menu-translator.php:113
+msgid "Title"
+msgstr ""
+
+#: admin/class-wpmt-menu-translator.php:121
+msgid "Title Attribute"
+msgstr ""
+
+#: admin/class-wpmt-menu-translator.php:129
+msgid "Description"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:47
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:55
+msgid "Default Language"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:64
+msgid "Enabled Languages"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:73
+msgid "Display Settings"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:81
+msgid "Language Switcher"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:90
+msgid "Language Switcher Style"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:99
+msgid "Translate Slugs"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:108
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:116
+msgid "Auto Translate"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:125
+msgid "Translation Service"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:186
+msgid "Configure the general settings for the multilingual translator."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:205
+msgid "Select the default language for your website."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:235
+msgid "Select the languages you want to enable for translation."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:244
+msgid "Configure how translations are displayed on your website."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:258
+msgid "Display language switcher on the frontend"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:260
+msgid "If enabled, a language switcher will be displayed on your website."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:273
+msgid "Dropdown"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:274
+msgid "List"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:275
+msgid "Flags"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:284
+msgid "Select the style of the language switcher."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:298
+msgid "Translate post and term slugs"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:300
+msgid "If enabled, post and term slugs will be translated."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:309
+msgid "Configure advanced settings for the multilingual translator."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:323
+msgid "Automatically translate content"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:325
+msgid "If enabled, content will be automatically translated when created or updated."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:339
+msgid "None"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:340
+msgid "Google Translate API"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:341
+msgid "DeepL API"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:350
+msgid "Select the translation service to use for automatic translation."
+msgstr ""
+
+#: admin/class-wpmt-settings.php:354
+msgid "API Key"
+msgstr ""
+
+#: admin/class-wpmt-settings.php:356
+msgid "Enter your API key for the selected translation service."
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:28
+msgid "Plugin Information"
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:29
+msgid "WP Multilingual Translator allows you to translate all types of posts, pages, custom post types, menus, and other content into multiple languages."
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:30
+msgid "Version"
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:34
+msgid "Quick Links"
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:36
+msgid "Languages"
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:37
+msgid "Translation Status"
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:42
+msgid "Need Help?"
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:43
+msgid "Check out the documentation for help with setting up and using the plugin."
+msgstr ""
+
+#: admin/partials/wpmt-admin-display.php:44
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:38
+msgid "Languages updated successfully."
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:52
+msgid "Default Language"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:53
+msgid "Select the default language for your website. This is the language that your content is primarily written in."
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:64
+msgid "Enabled Languages"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:65
+msgid "Select the languages you want to enable for translation. The default language will always be enabled."
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:72
+msgid "Enabled"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:73
+msgid "Flag"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:74
+msgid "Language"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:75
+msgid "Code"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:76
+msgid "Default"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:110
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:116
+msgid "Language Management"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:117
+msgid "Enable the languages you want to use for translation. The default language will always be enabled."
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:118
+msgid "You can add more languages to WordPress by installing language packs."
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:119
+msgid "WordPress Settings"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:123
+msgid "Translation Status"
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:124
+msgid "Check the translation status of your content."
+msgstr ""
+
+#: admin/partials/wpmt-languages-display.php:125
+msgid "View Translation Status"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:52
+msgid "Translation Status"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:53
+msgid "View the translation status of your content."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:60
+msgid "All Post Types"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:70
+msgid "All Languages"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:81
+msgid "All Statuses"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:82
+msgid "Translated"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:83
+msgid "Not Translated"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:86
+msgid "Filter"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:94
+msgid "Title"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:95
+msgid "Type"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:96
+msgid "Status"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:110
+msgid "Actions"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:116
+msgid "No content found."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:146
+msgid "Missing"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:153
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:166
+msgid "Translation Status"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:167
+msgid "This page shows the translation status of your content."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:168
+msgid "Use the filters to narrow down the results."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:173
+msgid "Legend"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:176
+msgid "Published"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:177
+msgid "Translation is published and visible on the frontend."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:180
+msgid "Draft"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:181
+msgid "Translation is saved as a draft and not visible on the frontend."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:184
+msgid "Missing"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:185
+msgid "No translation exists for this content."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:191
+msgid "Languages"
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:192
+msgid "Manage the languages available for translation."
+msgstr ""
+
+#: admin/partials/wpmt-status-display.php:193
+msgid "Manage Languages"
+msgstr ""
+
+#: public/class-wpmt-language-switcher.php:123
+msgid "Language Switcher"
+msgstr ""
+
+#: public/class-wpmt-language-switcher.php:125
+msgid "Displays a language switcher for your multilingual content."
+msgstr ""
+
+#: public/class-wpmt-language-switcher.php:177
+msgid "Title:"
+msgstr ""
+
+#: public/class-wpmt-language-switcher.php:180
+msgid "Style:"
+msgstr ""
+
+#: public/class-wpmt-language-switcher.php:182
+msgid "Dropdown"
+msgstr ""
+
+#: public/class-wpmt-language-switcher.php:183
+msgid "List"
+msgstr ""
+
+#: public/class-wpmt-language-switcher.php:184
+msgid "Flags"
+msgstr ""

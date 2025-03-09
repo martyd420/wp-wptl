@@ -1,0 +1,128 @@
+/**
+ * Public styles for the WP Multilingual Translator plugin.
+ *
+ * @since      1.0.0
+ * @package    WP_Multilingual_Translator
+ */
+
+/* Language Switcher - Dropdown Style */
+.wpmt-language-switcher.wpmt-style-dropdown {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.wpmt-language-switcher.wpmt-style-dropdown select {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    width: auto;
+    min-width: 150px;
+}
+
+/* Language Switcher - List Style */
+.wpmt-language-switcher.wpmt-style-list {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.wpmt-language-switcher.wpmt-style-list ul.wpmt-language-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wpmt-language-switcher.wpmt-style-list ul.wpmt-language-list li {
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+.wpmt-language-switcher.wpmt-style-list ul.wpmt-language-list li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wpmt-language-switcher.wpmt-style-list ul.wpmt-language-list li a:hover {
+    background-color: #f9f9f9;
+}
+
+.wpmt-language-switcher.wpmt-style-list ul.wpmt-language-list li.wpmt-active a {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Language Switcher - Flags Style */
+.wpmt-language-switcher.wpmt-style-flags {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.wpmt-language-switcher.wpmt-style-flags ul.wpmt-language-flags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wpmt-language-switcher.wpmt-style-flags ul.wpmt-language-flags li {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+.wpmt-language-switcher.wpmt-style-flags ul.wpmt-language-flags li a {
+    display: block;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+.wpmt-language-switcher.wpmt-style-flags ul.wpmt-language-flags li a:hover {
+    border-color: #ddd;
+}
+
+.wpmt-language-switcher.wpmt-style-flags ul.wpmt-language-flags li.wpmt-active a {
+    border-color: #999;
+}
+
+.wpmt-language-switcher.wpmt-style-flags ul.wpmt-language-flags li a img {
+    display: block;
+    width: 24px;
+    height: 16px;
+    border: none;
+}
+
+/* Language Switcher - Widget */
+.widget_wpmt_language_switcher_widget .wpmt-language-switcher {
+    margin: 0;
+}
+
+/* Footer Language Switcher */
+.wpmt-footer-language-switcher {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .wpmt-language-switcher.wpmt-style-list ul.wpmt-language-list {
+        flex-direction: column;
+    }
+    
+    .wpmt-language-switcher.wpmt-style-list ul.wpmt-language-list li {
+        margin: 0 0 5px 0;
+    }
+}

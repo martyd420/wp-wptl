@@ -1,0 +1,143 @@
+/**
+ * Admin styles for the WP Multilingual Translator plugin.
+ *
+ * @since      1.0.0
+ * @package    WP_Multilingual_Translator
+ */
+
+/* Translation meta box */
+.wpmt-translations-wrapper {
+    margin-bottom: 20px;
+}
+
+.wpmt-post-language {
+    margin-bottom: 15px;
+}
+
+.wpmt-post-language label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.wpmt-translations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.wpmt-translations-table th,
+.wpmt-translations-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.wpmt-translations-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.wpmt-translation-editor {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.wpmt-form-field {
+    margin-bottom: 15px;
+}
+
+.wpmt-form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.wpmt-form-actions {
+    margin-top: 20px;
+}
+
+/* Menu translations */
+.wpmt-menu-translations {
+    margin-top: 10px;
+}
+
+.wpmt-menu-translations-fields {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.wpmt-menu-translations-fields h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Settings page */
+.wpmt-enabled-languages {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+.wpmt-enabled-languages label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Translation status page */
+.wpmt-status-filters {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ccd0d4;
+}
+
+.wpmt-status-filters select {
+    margin-right: 10px;
+}
+
+.wpmt-status-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.translation-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.translation-status-published {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.translation-status-draft {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+}
+
+.translation-status-missing {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.wpmt-status-legend {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wpmt-status-legend li {
+    margin-bottom: 10px;
+}
